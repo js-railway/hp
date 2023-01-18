@@ -59,8 +59,7 @@ $(function(){
                 touchThreshold: 10,
                 lazyLoad: 'progressive',
                 infinite:false,
-                speed: 1,
-                initialSlide:num,
+                                initialSlide:num,
             });
             $slider.slick('slickRemove',true); //一枚目削除
             total_minus = 1;
@@ -75,7 +74,7 @@ $(function(){
                 touchThreshold: 10,
                 lazyLoad: 'progressive',
                 infinite:false,
-                speed: 1,
+                
                 initialSlide:num,
             });
         }
