@@ -57,7 +57,7 @@ $(function(){
                 slidesToShow:1,
                 slidesToScroll:1,
                 touchThreshold: 10,
-                lazyLoad: 'progressive',
+                lazyLoad: 'ondemand',
                 infinite:false,
                                 initialSlide:num,
             });
@@ -72,7 +72,7 @@ $(function(){
                 slidesToShow:2,
                 slidesToScroll:2,
                 touchThreshold: 10,
-                lazyLoad: 'progressive',
+                lazyLoad: 'ondemand',
                 infinite:false,
                 
                 initialSlide:num,
